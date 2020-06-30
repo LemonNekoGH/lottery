@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === "production") {
             "vuetify"
         ],
         outputDir: "docs",
-        assetsDir: "static",
+        assetsDir: "./",
         productionSourceMap: true
     }
 } else if (process.env.NODE_ENV === "development") {
