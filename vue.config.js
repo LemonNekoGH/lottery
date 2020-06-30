@@ -4,7 +4,7 @@ if (process.env.NODE_ENV === "production") {
         "transpileDependencies": [
             "vuetify"
         ],
-        outputDir: "doc",
+        outputDir: "docs",
         assetsDir: "static",
         productionSourceMap: true
     }
